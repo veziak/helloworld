@@ -1,0 +1,4 @@
+requests
+namesgenerator
+pytest
+teamcity-messages
