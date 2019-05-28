@@ -1,8 +1,11 @@
 
 
 [Hello world REST API implemented with GoLang](/app)
+
 [Integration tests implemented with Python](/tests)
+
 [Kubernetes deployment scripts](/k8s)
+
 [Terraform scripts](/terraform)
 
 ## Hello world application
