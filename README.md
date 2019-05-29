@@ -18,11 +18,11 @@ To run unit tests:
 ```bash
 go test
 ```
-To  build a docker image for gcp docker registry:
+To build a docker image for gcp docker registry:
 ```bash
 docker build -t eu.gcr.io/{gcp.project.id}/helloworld-go:{image.tag} .
 ```
-To  build push an image to gcp docker registry:
+To push an image to gcp docker registry:
 ```bash
 docker push eu.gcr.io/{gcp.project.id}/helloworld-go:{image.tag}
 ```
