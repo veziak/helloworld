@@ -48,7 +48,7 @@ WITH (
 ```
 
 ## Intergration tests
-Intergated tests are written in Python and should be executed against Hello world application running in some test environments.
+Intergation tests are written in Python and should be executed against Hello world application running in some test environments.
 Hello world application url is configured in [config.py](/tests/config.py) file
 To run tests:
 ```bash
