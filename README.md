@@ -95,3 +95,4 @@ Cluster should look like this after that:
 
 ![](https://lh6.googleusercontent.com/Ea3nUI2_zwYdtbGgdIy-1TSn-C4dbpk6prXx4KKcfKoR8fR9N4cuHHOEko2Qhh76C5rBr6XwO3sbI5rikuxERbKNT0IDkWS07ttd1vaZqEuNm8BsaXB_TAD5t8_uVxGpsQ4dHQcM)
 
+So a new version has been deployed successfully and without any downtime.
