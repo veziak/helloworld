@@ -48,7 +48,7 @@ WITH (
 ```
 
 ## Intergration tests
-Intergation tests are written in Python and should be executed against Hello world application running in some test environments.
+Intergation tests are written in Python and should be executed against Hello world application running in some test environment.
 Hello world application url is configured in [config.py](/tests/config.py) file
 To run tests:
 ```bash
@@ -87,7 +87,7 @@ envsubst < deploy.yaml | kubectl apply -f -
 ```
 and check cluster status after that:
 ![](https://lh4.googleusercontent.com/61wBaz2BoUVAx0naaT5tRUMgrSywYx_dEgiLgCZ9e0JRquwNHArUy1-b04TJymXcDuFV96HEhiP6a1e3BOH-N1lVTPtZLMaU7QWoeKa0vgxcpay9E77U3Fzb1GYs5NPHs-oDF-A5)
-Both versions are running in parallel and load balancer randomly choose which pod should server a request. If we are happy with a new version and logs and monitoring are looking good we can destroy 1.1.0 version. 
+Both versions are running in parallel and load balancer randomly choose which pod should serve a request. If we are happy with a new version and logs and monitoring are looking good we can destroy 1.1.0 version. 
 ```bash
 kubectl delete deploy helloworld-go-1.1.0
 ```
